@@ -1,7 +1,7 @@
 <!--
  * @Date: 2020-03-03 19:50:36
  * @LastEditors  : Lee
- * @LastEditTime : 2020-03-04 16:00:59
+ * @LastEditTime : 2020-03-05 21:11:38
  -->
 <template>
   <div>
@@ -39,7 +39,7 @@
               ctx.lineTo(x-canvas.offsetLeft,y-canvas.offsetTop),
               ctx.stroke();
             }),
-            this.addEventListener('touchend',function(e){
+            this.addEventListener('touchend',function(){
               ctx.closePath();
             })
          })
